@@ -1,4 +1,4 @@
-name: Ejemplo_Edwin # Cambiar
+name: Ejemplo_edwin # Cambiar
 
 on:
     push
@@ -23,14 +23,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Proceso pyth # Cambiar nombre
+    - name: Proceso python # Cambiar nombre
       run: |
 
-        python Ejemplo.py 
-        
+        python Ejemplo.py      
+
     - uses: stefanzweifel/git-auto-commit-action@v2
       with:
-        commit_message: "Ejemplo_Edwin" # Ejemplo
+        commit_message: "Ejemplo_edwin" # Ejemplo
         branch: main
         # Optional glob pattern of files which should be added to the commit
         #file_pattern: /
@@ -40,6 +40,6 @@ jobs:
 
         # Optional commit user and author settings
         commit_user_name: Actions Bot
-        commit_user_email: pinedaedwin90@yahoo.com # Correo
-        commit_author: DataIntelligence BOT <pinedaedwin90@yahoo.com> # Correo
+        commit_user_email: pinedaedwin90@yahopo.com # Correo
+        commit_author: DataIntelligence BOT <pinedaedwin90@yahopo.com> # Correo
         push_options: '--force'
