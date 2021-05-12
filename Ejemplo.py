@@ -4,5 +4,5 @@ def Funcion_prueba():
 
 	print("Esta es uan prueba rapida")
 
-if _name_ == '__main__':
+if __name__ == '__main__':
 	Funcion_prueba()
